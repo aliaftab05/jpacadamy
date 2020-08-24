@@ -1,0 +1,40 @@
+
+.jumbotron {
+  /* The image used */
+  background-image: url("https://www.euttaranchal.com/tourism/_imgs/rafting.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+         .navbar:not(.top-nav-collapse) {
+             background: #1C2331!important;
+         }
+     }
+
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{
+  height:100%
+  }
+  .navbar{
+    background-color:rgba(0,0,0,.2)
+    }
+
+    .page-footer,.top-nav-collapse{
+      background-color:#1C2331
+      }
+      @media only screen and (max-width:768px){
+        .navbar{
+          background-color:#1C2331;
+          }
+
+          .zoom {
+            height: 200px;
+            width: 100%;
+            margin-bottom: 8px;
+          }
+          .carmid{
+            padding-bottom: 15px;
+          }
+        }
